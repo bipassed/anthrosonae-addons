@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- 
+    <li>
+        <shader>CutoutComplex</shader>
+        <first>()</first>
+        <second>()</second>
+    </li>
+
+    <li>
+        <shader>Cutout</shader>
+        <first>()</first>
+        <second>()</second>
+    </li>
+    -->
+
+    <!-- Anthrorat -->
+    <GeneDef ParentName="ATK_AnthrosonaFurBase">
+        <defName>RAT_AnthroratFur</defName>
+        <label>anthrorat fur</label>
+        <labelShortAdj>anthrorat furred</labelShortAdj>
+        <description>Carriers of this gene grow rat-like fur all over their body.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthroratFur</iconPath>
+        <skinColorOverride>(140,140,140)</skinColorOverride>
+        <forcedHeadTypes>
+            <li>RAT_Anthrorat_Average_Male</li>
+            <li>RAT_Anthrorat_Average_Female</li>
+        </forcedHeadTypes>
+        <graphicData>
+            <fur>RAT_Anthrorat</fur>
+        </graphicData>
+
+        <!-- Color -->
+        <modExtensions>
+            <li Class="Anthrosonae.GeneExtension">
+                <furPatterns>
+                    <!-- Darren -->
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(103, 89, 78)</first>
+                        <second>(162, 155, 149)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(77, 91, 103)</first>
+                        <second>(255, 255, 255)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(253, 252, 252)</first>
+                        <second>(178, 185, 188)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(92, 54, 43)</first>
+                        <second>(163, 130, 110)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(231, 222, 215)</first>
+                        <second>(255, 255, 255)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(255, 255, 255)</first>
+                        <second>(228, 178, 110)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(238, 225, 197)</first>
+                        <second>(254, 252, 243)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(149, 105, 62)</first>
+                        <second>(196, 157, 120)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(73, 67, 65)</first>
+                        <second>(120, 117, 113)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(255, 255, 255)</first>
+                        <second>(149, 124, 119)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(255, 255, 254)</first>
+                        <second>(214, 214, 214)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(157, 148, 153)</first>
+                        <second>(108, 101, 109)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(137, 118, 105)</first>
+                        <second>(157, 140, 140)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(255, 247, 237)</first>
+                        <second>(239, 220, 198)</second>
+                    </li>
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(193, 154, 130)</first>
+                        <second>(167, 87, 35)</second>
+                    </li>
+                </furPatterns>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef ParentName="ATK_AnthrosonaEarsBase">
+        <defName>RAT_AnthroratEars</defName>
+        <label>anthrorat ears</label>
+        <description>Carriers of this gene have rat-like ears.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthroratEars</iconPath>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Anthrosonae/HeadAttachments/Ears/AnthroratEars</graphicPath>
+        </graphicData>
+    </GeneDef>
+
+    <GeneDef ParentName="ATK_AnthrosonaTailBase">
+        <defName>RAT_AnthroratTail</defName>
+        <label>anthrorat tail</label>
+        <description>Carriers of this gene have a rat-like tail.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthroratTail</iconPath>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Anthrosonae/BodyAttachments/Tails/AnthroratTail</graphicPath>
+            <drawOffsetNorth>(0.03,0,0)</drawOffsetNorth>
+            <drawOffsetSouth>(-0.03,0,-0.03)</drawOffsetSouth>
+            <drawOffsetEast>(-0.03,0,-0.03)</drawOffsetEast>
+            <useSkinShader>false</useSkinShader>
+        </graphicData>
+    </GeneDef>
+
+</Defs>

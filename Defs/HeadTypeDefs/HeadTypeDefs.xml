@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- //// Anthrorat //// -->
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>RAT_Anthrorat_Average_Male</defName>
+        <requiredGenes>
+            <li>RAT_AnthroratFur</li>
+        </requiredGenes>
+        <graphicPath>Things/Pawn/Humanlike/Anthrosonae/Heads/Anthrorat_Average_Male</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>Male</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>RAT_Anthrorat_Average_Female</defName>
+        <requiredGenes>
+            <li>RAT_AnthroratFur</li>
+        </requiredGenes>
+        <graphicPath>Things/Pawn/Humanlike/Anthrosonae/Heads/Anthrorat_Average_Female</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>Female</gender>
+    </HeadTypeDef>
+
+</Defs>

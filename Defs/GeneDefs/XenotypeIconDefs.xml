@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <XenotypeIconDef>
+        <defName>ATK_Anthrorat</defName>
+        <texPath>UI/Icons/Xenotypes/Anthrosonae/Anthrorat</texPath>
+    </XenotypeIconDef>
+
+</Defs>

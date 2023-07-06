@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/FactionDef[@Name="OutlanderFactionBase" or @Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+				<value>
+					<RAT_Anthrorat>0.005</RAT_Anthrorat>
+				</value>
+			</li>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Royalty</li>
+				</mods>
+				<match Class="PatchOperationAdd">
+					<xpath>*/FactionDef[defName="OutlanderRefugee"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<RAT_Anthrorat>0.005</RAT_Anthrorat>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Ideology</li>
+				</mods>
+				<match Class="PatchOperationAdd">
+					<xpath>*/FactionDef[defName="Beggars" or defName="Pilgrims"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<RAT_Anthrorat>0.005</RAT_Anthrorat>
+					</value>
+				</match>
+			</li>
+
+			<!-- Vanilla Factions Expanded -->
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Factions Expanded - Pirates</li>
+				</mods>
+				<match Class="PatchOperationAdd">
+					<xpath>*/FactionDef[defName="VFEP_Junkers" or defName="VFEP_Mercenaries"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<RAT_Anthrorat>0.005</RAT_Anthrorat>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Factions Expanded - Settlers</li>
+				</mods>
+				<match Class="PatchOperationAdd">
+					<xpath>*/FactionDef[defName="SettlerCivil" or defName="SettlerRough" or defName="SettlerSavage"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<RAT_Anthrorat>0.005</RAT_Anthrorat>
+					</value>
+				</match>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

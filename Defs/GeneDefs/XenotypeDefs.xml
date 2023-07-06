@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- //// Anthrorat //// -->
+    <XenotypeDef ParentName="ATK_AnthrosonaBase">
+        <defName>RAT_Anthrorat</defName>
+        <label>anthrorat</label>
+        <description>Anthrorats are a variant of anthrosonae designed to resemble an anthropomorphized rat. While they look quite different, generally they are functionally identical to baseliner humans.\n\nSuch xenogerms are commercially available among many spacer-tech and ultra-tech societies, often as part of an exotic fashion trend or to suit an individual's personal preferences. Contrary to popular belief, anthrosona genes are engineered without any splicing from their animal counterparts.</description>
+        <descriptionShort>Anthrorats are a variant of anthrosonae designed to resemble an anthropomorphized rat. While they look quite different, generally they are functionally identical to baseliner humans.</descriptionShort>
+        <iconPath>UI/Icons/Xenotypes/Anthrosonae/Anthrorat</iconPath>
+        <genes>
+            <li>RAT_AnthroratFur</li>
+            <li>RAT_AnthroratEars</li>
+            <li>RAT_AnthroratTail</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

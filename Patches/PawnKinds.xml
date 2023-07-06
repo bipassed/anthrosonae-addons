@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/PawnKindDef[@Name="SpaceRefugeeBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<RAT_Anthrorat>0.005</RAT_Anthrorat>
+		</value>
+	</Operation>
+
+</Patch>

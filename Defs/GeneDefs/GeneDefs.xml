@@ -123,6 +123,7 @@
         <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthroratEars</iconPath>
         <graphicData>
             <graphicPath>Things/Pawn/Humanlike/Anthrosonae/HeadAttachments/Ears/AnthroratEars</graphicPath>
+            <useSkinShader>false</useSkinShader>
         </graphicData>
     </GeneDef>
 

@@ -141,4 +141,85 @@
         </graphicData>
     </GeneDef>
 
+
+    <!-- Anthrogalzig -->
+    <GeneDef ParentName="ATK_AnthrosonaFurBase">
+        <defName>RAT_AnthrogalzigFur</defName>
+        <label>anthrogalzig fur</label>
+        <labelShortAdj>anthrogalzig furred</labelShortAdj>
+        <description>Carriers of this gene grow galarian zigzagoon-like fur all over their body.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrogalzigFur</iconPath>
+        <skinColorOverride>(140,140,140)</skinColorOverride>
+        <forcedHeadTypes>
+            <li>RAT_Anthrogalzig_Average_Male</li>
+            <li>RAT_Anthrogalzig_Average_Female</li>
+        </forcedHeadTypes>
+        <graphicData>
+            <fur>RAT_Anthrogalzig</fur>
+        </graphicData>
+
+        <!-- Color -->
+        <modExtensions>
+            <li Class="Anthrosonae.GeneExtension">
+                <furPatterns>
+                    <!-- Normal -->
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(255, 255, 255)</first>
+                        <second>(60, 60, 60)</second>
+                    </li>
+                    <!-- Opposite Normal -->
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(60, 60, 60)</first>
+                        <second>(255, 255, 255)</second>
+                    </li>
+                    <!-- Shiny -->
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(255, 255, 255)</first>
+                        <second>(192, 26, 75)</second>
+                    </li>
+                    <!-- Zigzagoon -->
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(156, 128, 105)</first>
+                        <second>(234, 218, 204)</second>
+                    </li>
+                    <!-- Shiny Zigzagoon -->
+                    <li>
+                        <shader>CutoutComplex</shader>
+                        <first>(238, 131, 56)</first>
+                        <second>(254, 236, 196)</second>
+                    </li>
+                </furPatterns>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef ParentName="ATK_AnthrosonaEarsBase">
+        <defName>RAT_AnthrogalzigEars</defName>
+        <label>anthrogalzig ears</label>
+        <description>Carriers of this gene have galarian zigzagoon-like ears.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrogalzigEars</iconPath>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Anthrosonae/HeadAttachments/Ears/AnthrogalzigEars</graphicPath>
+            <useSkinShader>true</useSkinShader>
+        </graphicData>
+    </GeneDef>
+
+    <GeneDef ParentName="ATK_AnthrosonaTailBase">
+        <defName>RAT_AnthrogalzigTail</defName>
+        <label>anthrogalzig tail</label>
+        <description>Carriers of this gene have a galarian zigzagoon-like tail.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrogalzigTail</iconPath>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/Anthrosonae/BodyAttachments/Tails/AnthrogalzigTail</graphicPath>
+            <drawOffsetNorth>(0, 0, -0.1)</drawOffsetNorth>
+            <drawOffsetSouth>(-0.4, 0, 0)</drawOffsetSouth>
+            <drawOffsetEast>(0.3, 0, -0.13)</drawOffsetEast>
+            <useSkinShader>true</useSkinShader>
+        </graphicData>
+    </GeneDef>
+
 </Defs>

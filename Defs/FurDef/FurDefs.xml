@@ -15,4 +15,18 @@
         </bodyTypeGraphicPaths>
     </FurDef>
 
+    <FurDef>
+        <defName>RAT_Anthrogalzig</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrorabbit_Male</Male>
+            <Female>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrorabbit_Female</Female>
+            <Hulk>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrorabbit_Hulk</Hulk>
+            <Fat>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrorabbit_Fat</Fat>
+            <Thin>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrorabbit_Thin</Thin>
+            <Child>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrorabbit_Child</Child>
+            <Baby>Things/Pawn/Humanlike/Anthrosonae/Bodies/Anthrorabbit_Child</Baby>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
 </Defs>

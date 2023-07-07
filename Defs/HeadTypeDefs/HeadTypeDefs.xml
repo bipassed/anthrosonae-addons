@@ -22,4 +22,25 @@
         <gender>Female</gender>
     </HeadTypeDef>
 
+    <!-- //// Anthrogalzig //// -->
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>RAT_Anthrogalzig_Average_Male</defName>
+        <requiredGenes>
+            <li>RAT_AnthrogalzigFur</li>
+        </requiredGenes>
+        <graphicPath>Things/Pawn/Humanlike/Anthrosonae/Heads/Anthrogalzig_Average_Male</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>Male</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>RAT_Anthrogalzig_Average_Female</defName>
+        <requiredGenes>
+            <li>RAT_AnthrogalzigFur</li>
+        </requiredGenes>
+        <graphicPath>Things/Pawn/Humanlike/Anthrosonae/Heads/Anthrogalzig_Average_Female</graphicPath>
+        <randomChosen>false</randomChosen>
+        <gender>Female</gender>
+    </HeadTypeDef>
+
 </Defs>

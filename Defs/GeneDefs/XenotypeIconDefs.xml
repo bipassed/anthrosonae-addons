@@ -6,4 +6,9 @@
         <texPath>UI/Icons/Xenotypes/Anthrosonae/Anthrorat</texPath>
     </XenotypeIconDef>
 
+    <XenotypeIconDef>
+        <defName>ATK_Anthrogalzig</defName>
+        <texPath>UI/Icons/Xenotypes/Anthrosonae/Anthrogalzig</texPath>
+    </XenotypeIconDef>
+
 </Defs>

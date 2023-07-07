@@ -5,6 +5,7 @@
 		<xpath>*/PawnKindDef[@Name="SpaceRefugeeBase"]/xenotypeSet/xenotypeChances</xpath>
 		<value>
 			<RAT_Anthrorat>0.005</RAT_Anthrorat>
+			<RAT_Anthrogalzig>0.005</RAT_Anthrogalzig>
 		</value>
 	</Operation>
 
